@@ -9,7 +9,6 @@ namespace TextInput
         public virtual void Add(char c)
         {
             text[index++] = c;
-            Console.WriteLine(c);
         }
 
         public string GetValue()
@@ -20,7 +19,6 @@ namespace TextInput
 
     public class NumericInput : TextInput
     {
-        //private char[] text = new char[100];
         private int index = 0;
 
         public override void Add(char c)
@@ -28,15 +26,12 @@ namespace TextInput
             if (Char.IsDigit(c))
             {
                 text[index++] = c;
-                Console.WriteLine(c);
             }
         }
     }
 
     class Program
     {
-
-
         public static void aMain(string[] args)
         {
             TextInput input = new NumericInput();
