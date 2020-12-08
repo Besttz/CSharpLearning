@@ -5,7 +5,7 @@ namespace TextInput
     public class TextInput
     {
         protected char[] text = new char[100];
-        private int index = 0;
+        protected int index = 0;
         public virtual void Add(char c)
         {
             text[index++] = c;
@@ -19,8 +19,6 @@ namespace TextInput
 
     public class NumericInput : TextInput
     {
-        private int index = 0;
-
         public override void Add(char c)
         {
             if (Char.IsDigit(c))
