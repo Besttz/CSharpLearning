@@ -36,7 +36,7 @@ namespace X
 
     public class UserInput
     {
-        public static void Main(string[] args)
+        public static void aMain(string[] args)
         {
             TextInput input = new NumericInput();
             input.Add('1');

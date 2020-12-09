@@ -45,7 +45,7 @@ namespace Learning
             return result;
         }
 
-        public static void Main(string[] args)
+        public static void aMain(string[] args)
         {
             string[] names1 = new string[] { "Ava", "Emma", "Olivia" };
             string[] names2 = new string[] { "Olivia", "Sophia", "Emma" };

@@ -18,7 +18,7 @@ namespace Learning
             throw new InvalidOperationException("Waiting to be implemented.");
         }
 
-        public static void Main(string[] args)
+        public static void aMain(string[] args)
         {
             Song first = new Song("Hello");
             Song second = new Song("Eye of the tiger");
